@@ -1,0 +1,153 @@
+ToDo-Dev
+├─ .eslintrc.json
+├─ .git
+│  ├─ COMMIT_EDITMSG
+│  ├─ FETCH_HEAD
+│  ├─ HEAD
+│  ├─ branches
+│  ├─ config
+│  ├─ description
+│  ├─ hooks
+│  │  ├─ applypatch-msg.sample
+│  │  ├─ commit-msg.sample
+│  │  ├─ fsmonitor-watchman.sample
+│  │  ├─ post-update.sample
+│  │  ├─ pre-applypatch.sample
+│  │  ├─ pre-commit.sample
+│  │  ├─ pre-merge-commit.sample
+│  │  ├─ pre-push.sample
+│  │  ├─ pre-rebase.sample
+│  │  ├─ pre-receive.sample
+│  │  ├─ prepare-commit-msg.sample
+│  │  ├─ push-to-checkout.sample
+│  │  └─ update.sample
+│  ├─ index
+│  ├─ info
+│  │  └─ exclude
+│  ├─ logs
+│  │  ├─ HEAD
+│  │  └─ refs
+│  │     ├─ heads
+│  │     │  └─ main
+│  │     └─ remotes
+│  │        └─ origin
+│  │           ├─ HEAD
+│  │           └─ main
+│  ├─ objects
+│  │  ├─ 07
+│  │  │  └─ 47a7035251738034b3e4f5e28f2e09a7649b85
+│  │  ├─ 08
+│  │  │  └─ 64acbf0bc7734b9d0920274d88460a64f1a554
+│  │  ├─ 0f
+│  │  │  ├─ a213004f35f2a21da9b5d094f0c9e5daacbb97
+│  │  │  └─ b47f1236b82662d7675232f353a30b4a74679b
+│  │  ├─ 13
+│  │  │  └─ e3b918126b0cdf70c658485c2fa7d28504e519
+│  │  ├─ 1e
+│  │  │  └─ 7e36806582a78bcc226ca192765816e0d15512
+│  │  ├─ 29
+│  │  │  └─ 1cca852d8c65bd3781c82cc4148c9ff032523a
+│  │  ├─ 2d
+│  │  │  └─ e86ffc2c040ce58cf53ff32b3fd384777153c5
+│  │  ├─ 3b
+│  │  │  └─ db80a9afc5bc9f5891f67d64a526ca5ca1bd9d
+│  │  ├─ 51
+│  │  │  ├─ 74b28c565c285e3e312ec5178be64fbeca8398
+│  │  │  └─ c5cd52212c41d03d5d0c5d069363b2cdc6e991
+│  │  ├─ 5c
+│  │  │  ├─ 037f9af0c51b06817d78b8430fc249dbb828f7
+│  │  │  └─ 90cae95b31b6ad09c42d08e60527af75d8f297
+│  │  ├─ 63
+│  │  │  └─ a70f495fb6ce5fd281612cd1d14ec5d6d44ec6
+│  │  ├─ 66
+│  │  │  └─ 76d2c66b7875aa58a08a6b9276680349c69078
+│  │  ├─ 68
+│  │  │  └─ 2f21aef0e6134a91eb3f168f77d118f03d3277
+│  │  ├─ 6c
+│  │  │  └─ a172a7dd4d9f8db7997df9e2ec12f2e33f5151
+│  │  ├─ 71
+│  │  │  └─ 8d6fea4835ec2d246af9800eddb7ffb276240c
+│  │  ├─ 76
+│  │  │  └─ 7719fc4fba59345ae29e29159c9aff270f5819
+│  │  ├─ 7c
+│  │  │  └─ 031f30cd306f1b340c14375e27a7f988d87222
+│  │  ├─ 7d
+│  │  │  └─ 502a8c1efc127b3a6dc83d73106d5e19da5c3f
+│  │  ├─ 7e
+│  │  │  └─ aee5b1ff442510e7727efb799359aaa9460ee7
+│  │  ├─ 82
+│  │  │  └─ 8605351970b5e9f315234eebf3a89419a39f32
+│  │  ├─ 84
+│  │  │  └─ 95bfdd6efd66703661dbb1d61def1d5f580962
+│  │  ├─ 94
+│  │  │  └─ 3afb626668c35f4b494f80a1ab37eea822ccdf
+│  │  ├─ ae
+│  │  │  └─ 8adfbcc14bbadab8b97c2e7e570ee9acabf1c5
+│  │  ├─ bf
+│  │  │  └─ fb357a7122523ec94045523758c4b825b448ef
+│  │  ├─ c1
+│  │  │  ├─ 54e0cd591606436225b27bc766cc216a94348f
+│  │  │  └─ b302989dc4d246e32e1dff319b9e5567e2caac
+│  │  ├─ c2
+│  │  │  └─ 96444661c5edf2ee752e57bcbdcbdf5b5386c3
+│  │  ├─ c8
+│  │  │  └─ f4cc054f83addf7d9837d219d97c0229eb37c6
+│  │  ├─ ca
+│  │  │  └─ 300e5701ede1209880ecd563b6bb9d39b838d4
+│  │  ├─ d2
+│  │  │  └─ f84222734f27b623d1c80dda3561b04d1284af
+│  │  ├─ df
+│  │  │  └─ e0770424b2a19faf507a501ebfc23be8f54e7b
+│  │  ├─ e1
+│  │  │  ├─ 16a1357d8688ee8c20c4d37bcb7e69198f9f38
+│  │  │  └─ 95f3399ee8718c0eb66e6931a5f9373b9d6268
+│  │  ├─ e5
+│  │  │  └─ 9724b283f9cb9a63ce04a2405128164607a14a
+│  │  ├─ f8
+│  │  │  ├─ 7d1693efc9be33cc9db79e25b74c4b47f47c1d
+│  │  │  └─ c4c8030d905ccda2d1d0b51d97ee0162ef8f42
+│  │  ├─ fd
+│  │  │  └─ 3dbb571a12a1c3baf000db049e141c888d05a8
+│  │  ├─ info
+│  │  └─ pack
+│  └─ refs
+│     ├─ heads
+│     │  └─ main
+│     ├─ remotes
+│     │  └─ origin
+│     │     ├─ HEAD
+│     │     └─ main
+│     └─ tags
+├─ .gitattributes
+├─ .gitignore
+├─ LICENSE
+├─ README.md
+├─ Screenshot from 2023-10-28 18-32-23.png
+├─ backend
+│  ├─ BUILD
+│  ├─ Tasks.json
+│  ├─ filesystem.hpp
+│  ├─ includes.hpp
+│  ├─ main.cpp
+│  └─ makefile
+├─ next-env.d.ts
+├─ next.config.js
+├─ package-lock.json
+├─ package.json
+├─ public
+│  ├─ next.svg
+│  └─ vercel.svg
+├─ src
+│  ├─ app
+│  │  ├─ favicon.ico
+│  │  ├─ globals.css
+│  │  ├─ layout.tsx
+│  │  ├─ page.module.css
+│  │  └─ page.tsx
+│  └─ components
+│     ├─ Dark.tsx
+│     ├─ Markdown.tsx
+│     ├─ TasksList.tsx
+│     ├─ context.tsx
+│     └─ main.tsx
+└─ tsconfig.json
