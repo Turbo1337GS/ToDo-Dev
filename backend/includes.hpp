@@ -1,0 +1,19 @@
+#define BOOST_BIND_GLOBAL_PLACEHOLDERS
+#include <iostream>
+#include <boost/asio.hpp>
+#include <boost/beast.hpp>
+#include <boost/beast/http.hpp>
+#include <boost/beast/version.hpp>
+#include <boost/property_tree/ptree.hpp>
+#include <boost/property_tree/json_parser.hpp>
+#include <string>
+#include <vector>
+#include <binders.h>
+#include <string>
+#include <sstream>
+#include <nlohmann/json.hpp>
+#include <algorithm>
+#include <fstream>
+#include <nlohmann/json.hpp>
+#include <sstream>
+
